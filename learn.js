@@ -9,7 +9,6 @@ let prevguess = 'Previous guesses: '
 const correct = document.getElementsByClassName("correct")[0]
 
 let highorlow = document.getElementsByClassName("highorlow")[0]
-console.log(correctnumber)
 
 function newbutton () {
     const restart = document.createElement("button")
